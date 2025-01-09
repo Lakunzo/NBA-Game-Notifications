@@ -72,3 +72,13 @@ git clone [https://github.com/Lakunzo/NBA-Game-Notifications.git]
 4. Verify that an email was delivered
    
  ![Email](https://i.postimg.cc/J7XfbQNb/Game-Result.png)   
+
+### Lessons Learned
+1. Integrating external API into cloud systems
+2. Architecting a notification system using SNS Topic and Lambda
+3. Automating system triggers using EventBridge
+
+### Future Enhancements
+1. Add S3 bucket as destination for results
+2. Dashboard using AWS QuickSight
+
