@@ -7,3 +7,5 @@ This project is an alert system that sends real-time NBA game day score notifica
 * Sends formatted score updates to subscribers via SMS/Email using Amazon SNS.
 * Scheduled automation for regular updates using Amazon EventBridge.
 * Designed with security in mind, following the principle of least privilege for IAM roles.
+  
+![Architectural Diagram](https://i.postimg.cc/RFLRYRfW/Event-Drivent-API-drawio-1.png)
