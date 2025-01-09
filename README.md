@@ -53,4 +53,22 @@ git clone [https://github.com/Lakunzo/NBA-Game-Notifications.git]
 2. Select Author from scratch
 3. Enter a function name. In Runtime, select Python 3.13
 4. In Change default execution role, use an existing role, and select the IAM role that was created. Create the function
-5. Copy the 
+5. Copy the content of the src/nba_game_notification.py file from the repository
+6. From the Lambda function, select the Configuration tab, click Environment variables
+   * NBA_API_KEY:your_nba_api_key
+   * SNS_TOPIC_ARN: The ARN of the SNS topic created earlier
+   
+### Create an EventBrdige Rule
+1. In EventBridge, locate and click Rules in the Buses segment
+2. Click Create rule. In Rule detail, enter a name, select Schedule for the rule type, and click continue in Eventbridge scheduler
+3. In Schedule pattern, select recurring schedule, and select Cron-based schedule
+4. In Cron expression, enter your cron job details
+5. In select target, choose AWS Lambda, and select the Lambda function that was created earlier
+
+### Test the System
+1. Open the Lambda function
+2. In the Code tab, click Test to simulate the function
+3. Wait for it to complete and check result in the Test tab
+4. Verify that an email was delivered
+   
+ ![Email](https://i.postimg.cc/J7XfbQNb/Game-Result.png)   
