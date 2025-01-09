@@ -39,4 +39,18 @@ git clone [https://github.com/Lakunzo/NBA-Game-Notifications.git]
 
 ### Create IAM Policy
 1. Open IAM, and click policies
-2. Create policy and select SNS service. Switch to JSON. Copy and modify the nba_
+2. Create policy and select SNS service. Switch to JSON. Copy and modify the nba_game_role.json file
+3. Enter a name for the policy and create the policy
+
+### Create IAM Role
+1. Within IAM, click Create role
+2. In Trusted entity type, select AWS service. In Use case, select Lambda and click Next
+3. Select the IAM policy created, search for the "AWSLambdaBasicExecutionRole", add it and click Next
+4. Enter a name for the role and create the role
+
+### Create Lambda Function
+1. In Lambda, click Create function
+2. Select Author from scratch
+3. Enter a function name. In Runtime, select Python 3.13
+4. In Change default execution role, use an existing role, and select the IAM role that was created. Create the function
+5. Copy the 
