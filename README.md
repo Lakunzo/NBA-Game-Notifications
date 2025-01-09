@@ -39,4 +39,4 @@ git clone [https://github.com/Lakunzo/NBA-Game-Notifications.git]
 
 ### Create IAM Policy
 1. Open IAM, and click policies
-2. Create policy and select SNS service. Switch to JSON
+2. Create policy and select SNS service. Switch to JSON. Copy and modify the nba_
