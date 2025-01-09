@@ -9,3 +9,13 @@ This project is an alert system that sends real-time NBA game day score notifica
 * Designed with security in mind, following the principle of least privilege for IAM roles.
   
 ![Architectural Diagram](https://i.postimg.cc/RFLRYRfW/Event-Drivent-API-drawio-1.png)
+
+## Technologies 
+* Cloud Provider - AWS
+* Services Used - SNS, Lambda, EventBridge, IAM
+* External API - NBA Game API (SportsData.io)
+* Programming Language - Python 3.x
+
+## Setup Guide
+### Clone the Repository
+
