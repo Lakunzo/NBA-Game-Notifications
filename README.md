@@ -70,7 +70,7 @@ git clone [https://github.com/Lakunzo/NBA-Game-Notifications.git]
 3. Wait for it to complete and check result in the Test tab
 4. Verify that an email was delivered
    
- ![Email](https://i.postimg.cc/J7XfbQNb/Game-Result.png)   
+ ![Email](https://i.postimg.cc/0QZrFsv0/Screenshot-2025-01-15-114925.png)   
 
 ### Lessons Learned
 1. Integrating external API into cloud systems
