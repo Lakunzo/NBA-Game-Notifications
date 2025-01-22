@@ -17,9 +17,9 @@ This project is an alert system that sends real-time NBA game day score notifica
 
 ## Setup Guide
 ### Clone the Repository
-
+```bash
 git clone [https://github.com/Lakunzo/NBA-Game-Notifications.git]
-
+```
 ### SportsData IO Sign up
 1. Sign up on [SportsData.IO](https://sportsdata.io/)
 2. Confirm Email
